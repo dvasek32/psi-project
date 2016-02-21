@@ -5,5 +5,5 @@
 
 *italics*
 **bold**
-_underscores_
-~scratch~
+__underscores__
+~~scratch~~
