@@ -78,9 +78,50 @@
 		* pouzivatel
 		
 ###### 11. Aky je rozdiel medzi zakaznikom a pouzivatelom?
-
-	
+	* Zakaznik je
+		* osoba, alebo organizacia, ktora ma na vytvoreni a fungovani sw primarny zaujem
+		* vklada don svoje financie
+	* Pouzivatelom je
+		* osoba, ktora so sw interaguje
+	* zasadny rozdiel je v zaujime na existencii sw.
+		* zakaznik ma eminentny zaujem
+		* pouzivatel ho moze mat ale nemusi
 		
+###### 12. Co je to program (v kontexte "swingu")?
+	* Pocitacom vykonatelny postup, mnozina instrukcii vykonavana pocitacom na splnenie nejakej ulohy
+	
+###### 13. Aky je rozdiel medzi programom a sw produktom?
+	* Sw produkt je program upravny do takej podoby, ze je vyuzitelny clovekom inym ako je autor programu
+	* Sw produkt casto upravuu iny ludia ako autor(i)
+	
+###### 14. Co je to system?
+		* Je "vec", ktora je poskladana z viacerych casti, pricom jednotilve casti spolupracuju (interaguju), tak aby splnili urcity spolocny ucel
+		
+###### 15. Co je to programovy system?
+		* sustava viacerych spolupracujucich programov. (nema produktovu kvalitu)
+		
+###### 16. Co je to softverovy system?
+		* Sustava viacerych spolupracujucich softverov. (ma produktovu kvalitu)
+
+###### 17. Porovnajte zdroje potrebne na vyvoj programu a vyvoj sw systemu
+		* Vytvorenie produktu (sw systemu) vyzaduje az 3-nasobok usilia oproti vytvoreniu programu.
+			* pretoze produkt musi splnat viacere kvalitativne standardy, aby sme ho mohli realne predavat
+		
+###### 18. Porovnajste zdroje potrebne na vyvoj __jednoducheho__ programu a softveroveho systemu
+		* Takmer jednoradovy rozdiel
+	
+###### 19. Co je to model vyvoja softveru? Ake dva zakladne modely rozlisujeme?
+		* Hrubo definovany postup, urcujuci ake cinnosti a v akom poradi vykonavame pri vyvoji sw.
+		* Rozlisujeme 2 fundamentalne odlisne typy modelov vyvoja sw:
+			* Linearny model
+				* Najznamejsi zastupca - VODOPADOVY MODEL
+				* V ramci neho postupne vykonavame cinnosti, analyzi, specifikacie, navrhu, implementacie a testovania sw.
+				* Kazdou fazou tohto modelu prechadzame iba raz
+			* Iterativno-Inkrementalny model
+				* V ramci neho prechadzame cez rovnake fazy viac krat
+				* zaoberame sa vzdy len nejakou castou sw
+###### 20. 
+				
 		
 		
 	
