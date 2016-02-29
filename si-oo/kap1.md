@@ -78,84 +78,92 @@
 		* pouzivatel
 		
 ###### 11. Aky je rozdiel medzi zakaznikom a pouzivatelom?
-	* Zakaznik je
-		* osoba, alebo organizacia, ktora ma na vytvoreni a fungovani sw primarny zaujem
-		* vklada don svoje financie
-	* Pouzivatelom je
-		* osoba, ktora so sw interaguje
-	* zasadny rozdiel je v zaujime na existencii sw.
-		* zakaznik ma eminentny zaujem
-		* pouzivatel ho moze mat ale nemusi
+* Zakaznik je
+	* osoba, alebo organizacia, ktora ma na vytvoreni a fungovani sw primarny zaujem
+	* vklada don svoje financie
+* Pouzivatelom je
+	* osoba, ktora so sw interaguje
+* zasadny rozdiel je v zaujime na existencii sw.
+	* zakaznik ma eminentny zaujem
+	* pouzivatel ho moze mat ale nemusi
 		
 ###### 12. Co je to program (v kontexte "swingu")?
-	* Pocitacom vykonatelny postup, mnozina instrukcii vykonavana pocitacom na splnenie nejakej ulohy
-	
+* Pocitacom vykonatelny postup, mnozina instrukcii vykonavana pocitacom na splnenie nejakej ulohy
+
 ###### 13. Aky je rozdiel medzi programom a sw produktom?
-	* Sw produkt je program upravny do takej podoby, ze je vyuzitelny clovekom inym ako je autor programu
-	* Sw produkt casto upravuu iny ludia ako autor(i)
-	
+* Sw produkt je program upravny do takej podoby, ze je vyuzitelny clovekom inym ako je autor programu
+* Sw produkt casto upravuu iny ludia ako autor(i)
+
 ###### 14. Co je to system?
-		* Je "vec", ktora je poskladana z viacerych casti, pricom jednotilve casti spolupracuju (interaguju), tak aby splnili urcity spolocny ucel
-		
+* Je "vec", ktora je poskladana z viacerych casti, pricom jednotilve casti spolupracuju (interaguju), tak aby splnili urcity spolocny ucel
+
 ###### 15. Co je to programovy system?
-		* sustava viacerych spolupracujucich programov. (nema produktovu kvalitu)
-		
+* sustava viacerych spolupracujucich programov. (nema produktovu kvalitu)
+
 ###### 16. Co je to softverovy system?
-		* Sustava viacerych spolupracujucich softverov. (ma produktovu kvalitu)
+* Sustava viacerych spolupracujucich softverov. (ma produktovu kvalitu)
 
 ###### 17. Porovnajte zdroje potrebne na vyvoj programu a vyvoj sw systemu
-		* Vytvorenie produktu (sw systemu) vyzaduje az 3-nasobok usilia oproti vytvoreniu programu.
-			* pretoze produkt musi splnat viacere kvalitativne standardy, aby sme ho mohli realne predavat
-		
+* Vytvorenie produktu (sw systemu) vyzaduje az 3-nasobok usilia oproti vytvoreniu programu.
+	* pretoze produkt musi splnat viacere kvalitativne standardy, aby sme ho mohli realne predavat
+
 ###### 18. Porovnajste zdroje potrebne na vyvoj __jednoducheho__ programu a softveroveho systemu
-		* Takmer jednoradovy rozdiel
-	
+* Takmer jednoradovy rozdiel
+
 ###### 19. Co je to model vyvoja softveru? Ake dva zakladne modely rozlisujeme?
-		* Hrubo definovany postup, urcujuci ake cinnosti a v akom poradi vykonavame pri vyvoji sw.
-		* Rozlisujeme 2 fundamentalne odlisne typy modelov vyvoja sw:
-			* Linearny model
-				* Najznamejsi zastupca - VODOPADOVY MODEL
-				* V ramci neho postupne vykonavame cinnosti, analyzi, specifikacie, navrhu, implementacie a testovania sw.
-				* Kazdou fazou tohto modelu prechadzame iba raz
-			* Iterativno-Inkrementalny model
-				* V ramci neho prechadzame cez rovnake fazy viac krat
-				* zaoberame sa vzdy len nejakou castou sw
+* Hrubo definovany postup, urcujuci ake cinnosti a v akom poradi vykonavame pri vyvoji sw.
+* Rozlisujeme 2 fundamentalne odlisne typy modelov vyvoja sw:
+	* Linearny model
+		* Najznamejsi zastupca - VODOPADOVY MODEL
+		* V ramci neho postupne vykonavame cinnosti, analyzi, specifikacie, navrhu, implementacie a testovania sw.
+		* Kazdou fazou tohto modelu prechadzame iba raz
+	* Iterativno-Inkrementalny model
+		* V ramci neho prechadzame cez rovnake fazy viac krat
+		* zaoberame sa vzdy len nejakou castou sw
 ###### 20. Vysvetlite pojem "inkrementalne", resp. "inkrement" v suvislosti s vyvojom softveru
-		* *__Inkrement__ je nejaky __prirastok__ k sw*
-			* *Moze ist o __novu__ funkcionalitu, alebo __rozsirenie__ uz existujucej, pricom v oboch pripadoch uvazujeme o malych a velkych zmenach(funkcionalitach)*
-			* *Nemusi ist len o funkctionalitu, ale aj o kus kodu, dokumentu, databazy*\
-		* *__Inkrementalny__ vyvoj softveru je vyrvaranie sw pridavanim dalsich jeho casti.*
-				
+* *__Inkrement__ je nejaky __prirastok__ k sw*
+	* *Moze ist o __novu__ funkcionalitu, alebo __rozsirenie__ uz existujucej, pricom v oboch pripadoch uvazujeme o malych a velkych zmenach(funkcionalitach)*
+	* *Nemusi ist len o funkctionalitu, ale aj o kus kodu, dokumentu, databazy*\
+* *__Inkrementalny__ vyvoj softveru je vyrvaranie sw pridavanim dalsich jeho casti.*
+		
 ###### 21. Vysvetlite pojem "iterativne", resp. "iteracia" v suvislosti s vyvojom sw
-		* *__Iteracia__ znamena opakovanie.*
-		* *V suvislosti v vyvojom sw __Iterativnost__ znamena, ze opakovanie prechadzame (vsetkymi) fazami vyvoja softveru (analyza, navrh, implementacia, testovanie, ...) s cielom postupneho zlepsovania vysledneho sw.*
-			* *Jedna iteracia je potom __jeden prechod__ tymto cyklom.*
+* *__Iteracia__ znamena opakovanie.*
+* *V suvislosti v vyvojom sw __Iterativnost__ znamena, ze opakovanie prechadzame (vsetkymi) fazami vyvoja softveru (analyza, navrh, implementacia, testovanie, ...) s cielom postupneho zlepsovania vysledneho sw.*
+	* *Jedna iteracia je potom __jeden prechod__ tymto cyklom.*
 
 ###### 22. Preco je vyhodne pristupovat k vyvoju softveru inkrementalne?
-		* *Pri inkrementalnom postupe vytvarania sw mame tieto vyhody:*
-			* *__Zjednodusenie zlozitosti__*
-				* Dekompoziciou (rozdelenim problemu na mensie casti) si cely projekt vieme zjednodusit
-			* *__Skorsie testovanie jednotlivych prirastkov__*
-				* Kazdym prirastkom overujeme sw, co v podstate tiez prispieva k zjednodusovaniu celej prace na projekte
-			* *__Priradenie priorit jednotlivym prirastkom__*
-				* Najskor mozeme pracovat na tych prisrastkoch, ktore maju vyssiu prioritu a ukazat tak produkt zakaznikovi o nieco skor (znizuje to aj mieru rizika, nemusi vsak mieru nakladov - viacero testovani, dlhsi vyvoj)
+* *Pri inkrementalnom postupe vytvarania sw mame tieto vyhody:*
+	* *__Zjednodusenie zlozitosti__*
+		* Dekompoziciou (rozdelenim problemu na mensie casti) si cely projekt vieme zjednodusit
+	* *__Skorsie testovanie jednotlivych prirastkov__*
+		* Kazdym prirastkom overujeme sw, co v podstate tiez prispieva k zjednodusovaniu celej prace na projekte
+	* *__Priradenie priorit jednotlivym prirastkom__*
+		* Najskor mozeme pracovat na tych prisrastkoch, ktore maju vyssiu prioritu a ukazat tak produkt zakaznikovi o nieco skor (znizuje to aj mieru rizika, nemusi vsak mieru nakladov - viacero testovani, dlhsi vyvoj)
 ###### 23. Preco je vyhodne pristupovat k vyvoju sw iterativne?
-		* *Pretoze si snizujeme riziko minutia prostriedkov na nieco co v konecne dosledku nebude plne zodpovedat predstave zakaznika*
-		* *Uz pri prvej iteracii su naklady na projekt v radoch zlomkoch z celkovej ceny, a zaroven mame pribliznu predstavu ako bude sw vyzerat a mozeme ho zakaznikovi prezentovat (s vedomim ze este nejde o finalny produkt, ale iba o "hruby nacrt"*
+* *Pretoze si snizujeme riziko minutia prostriedkov na nieco co v konecne dosledku nebude plne zodpovedat predstave zakaznika*
+* *Uz pri prvej iteracii su naklady na projekt v radoch zlomkoch z celkovej ceny, a zaroven mame pribliznu predstavu ako bude sw vyzerat a mozeme ho zakaznikovi prezentovat (s vedomim ze este nejde o finalny produkt, ale iba o "hruby nacrt"*
 
 ###### 24. Aka je najvyhodnejsia velkost prirastkov pri inkrementalnom vyvoji sw?
-		* *Kazdy prirastok by mal byt z pohladu funkcionality __zmysluplny__ (mal by pridavat nejaku funkcionalitu pre pouzivatela), no zaroven mozu existovat prisrastky, ktore si vyzaduju vacsiu obsirnost, no zakaznikovi na prvy pohlad neprinasaju ziadnu funkcionalitu*
-		* *Kazdy prirastok by mal byt rozmune velky*
-		* *Prilisna dekompozicia*
-			* *sposobuje, ze jednotlive male prirastky moze byt casom velmi  tazke prepojit*
-		* *Prilisna velkost prirastkov*
-			* *dany prirastok je zlozite implementovat (jeho vyvoj trva dlhsie)*
+* *Kazdy prirastok by mal byt z pohladu funkcionality __zmysluplny__ (mal by pridavat nejaku funkcionalitu pre pouzivatela), no zaroven mozu existovat prisrastky, ktore si vyzaduju vacsiu obsirnost, no zakaznikovi na prvy pohlad neprinasaju ziadnu funkcionalitu*
+* *Kazdy prirastok by mal byt rozmune velky*
+* *Prilisna dekompozicia*
+	* *sposobuje, ze jednotlive male prirastky moze byt casom velmi  tazke prepojit*
+* *Prilisna velkost prirastkov*
+	* *dany prirastok je zlozite implementovat (jeho vyvoj trva dlhsie)
+
+###### 25. Ake typy sw produktov podla povodcu specifikacie pozname? a aky je medzi nimi rozdiel?
+* *__Zakaznicky__*
+	* Povodcom specifikacie je konkretny zakaznik (jeho poziadavky vyplyvaju z jeho potrieb)
+* *__Genericky__*
+	* Povodcom specifikacie je spolocnost sama
+	* Poziadavky su zalozene na potrebach ludi, ktorym sa ma softver predavat
+
+###### 26. 	Uvedte priklady foftverovych produktov generickeho typu
 	
-				
 ###### xx. Co znamen slaba opakovatelnost v tvorbe softveru
-		* So slabou opakovatelnostou sa stretavame v pripade ak sa snazime pri vytvarani projektu __uplatnit osvedcene postupy__, alebo __znovupouzit existujuci softver__.
-		* V oboch pripadoch je problem niektoru z danych veci pouzit, pretoze projekt ma ine specifikacie a su teeda nevyhnutne urcite modifikacie.
-		
+* So slabou opakovatelnostou sa stretavame v pripade ak sa snazime pri vytvarani projektu __uplatnit osvedcene postupy__, alebo __znovupouzit existujuci softver__.
+* V oboch pripadoch je problem niektoru z danych veci pouzit, pretoze projekt ma ine specifikacie a su teeda nevyhnutne urcite modifikacie.
+	
 ###### xx. 
 
 		22.
