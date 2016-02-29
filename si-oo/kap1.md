@@ -120,6 +120,7 @@
 	* Iterativno-Inkrementalny model
 		* V ramci neho prechadzame cez rovnake fazy viac krat
 		* zaoberame sa vzdy len nejakou castou sw
+		
 ###### 20. Vysvetlite pojem "inkrementalne", resp. "inkrement" v suvislosti s vyvojom softveru
 * *__Inkrement__ je nejaky __prirastok__ k sw*
 	* *Moze ist o __novu__ funkcionalitu, alebo __rozsirenie__ uz existujucej, pricom v oboch pripadoch uvazujeme o malych a velkych zmenach(funkcionalitach)*
