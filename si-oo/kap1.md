@@ -140,6 +140,7 @@
 		* Kazdym prirastkom overujeme sw, co v podstate tiez prispieva k zjednodusovaniu celej prace na projekte
 	* *__Priradenie priorit jednotlivym prirastkom__*
 		* Najskor mozeme pracovat na tych prisrastkoch, ktore maju vyssiu prioritu a ukazat tak produkt zakaznikovi o nieco skor (znizuje to aj mieru rizika, nemusi vsak mieru nakladov - viacero testovani, dlhsi vyvoj)
+		
 ###### 23. Preco je vyhodne pristupovat k vyvoju sw iterativne?
 * *Pretoze si snizujeme riziko minutia prostriedkov na nieco co v konecne dosledku nebude plne zodpovedat predstave zakaznika*
 * *Uz pri prvej iteracii su naklady na projekt v radoch zlomkoch z celkovej ceny, a zaroven mame pribliznu predstavu ako bude sw vyzerat a mozeme ho zakaznikovi prezentovat (s vedomim ze este nejde o finalny produkt, ale iba o "hruby nacrt"*
