@@ -120,11 +120,47 @@
 			* Iterativno-Inkrementalny model
 				* V ramci neho prechadzame cez rovnake fazy viac krat
 				* zaoberame sa vzdy len nejakou castou sw
-###### 20. 
+###### 20. Vysvetlite pojem "inkrementalne", resp. "inkrement" v suvislosti s vyvojom softveru
+		* *__Inkrement__ je nejaky __prirastok__ k sw*
+			* *Moze ist o __novu__ funkcionalitu, alebo __rozsirenie__ uz existujucej, pricom v oboch pripadoch uvazujeme o malych a velkych zmenach(funkcionalitach)*
+			* *Nemusi ist len o funkctionalitu, ale aj o kus kodu, dokumentu, databazy*\
+		* *__Inkrementalny__ vyvoj softveru je vyrvaranie sw pridavanim dalsich jeho casti.*
 				
-		
-		
+###### 21. Vysvetlite pojem "iterativne", resp. "iteracia" v suvislosti s vyvojom sw
+		* *__Iteracia__ znamena opakovanie.*
+		* *V suvislosti v vyvojom sw __Iterativnost__ znamena, ze opakovanie prechadzame (vsetkymi) fazami vyvoja softveru (analyza, navrh, implementacia, testovanie, ...) s cielom postupneho zlepsovania vysledneho sw.*
+			* *Jedna iteracia je potom __jeden prechod__ tymto cyklom.*
+
+###### 22. Preco je vyhodne pristupovat k vyvoju softveru inkrementalne?
+		* *Pri inkrementalnom postupe vytvarania sw mame tieto vyhody:*
+			* *__Zjednodusenie zlozitosti__*
+				* Dekompoziciou (rozdelenim problemu na mensie casti) si cely projekt vieme zjednodusit
+			* *__Skorsie testovanie jednotlivych prirastkov__*
+				* Kazdym prirastkom overujeme sw, co v podstate tiez prispieva k zjednodusovaniu celej prace na projekte
+			* *__Priradenie priorit jednotlivym prirastkom__*
+				* Najskor mozeme pracovat na tych prisrastkoch, ktore maju vyssiu prioritu a ukazat tak produkt zakaznikovi o nieco skor (znizuje to aj mieru rizika, nemusi vsak mieru nakladov - viacero testovani, dlhsi vyvoj)
+###### 23. Preco je vyhodne pristupovat k vyvoju sw iterativne?
+		* *Pretoze si snizujeme riziko minutia prostriedkov na nieco co v konecne dosledku nebude plne zodpovedat predstave zakaznika*
+		* *Uz pri prvej iteracii su naklady na projekt v radoch zlomkoch z celkovej ceny, a zaroven mame pribliznu predstavu ako bude sw vyzerat a mozeme ho zakaznikovi prezentovat (s vedomim ze este nejde o finalny produkt, ale iba o "hruby nacrt"*
+
+###### 24. Aka je najvyhodnejsia velkost prirastkov pri inkrementalnom vyvoji sw?
+		* *Kazdy prirastok by mal byt z pohladu funkcionality __zmysluplny__ (mal by pridavat nejaku funkcionalitu pre pouzivatela), no zaroven mozu existovat prisrastky, ktore si vyzaduju vacsiu obsirnost, no zakaznikovi na prvy pohlad neprinasaju ziadnu funkcionalitu*
+		* *Kazdy prirastok by mal byt rozmune velky*
+		* *Prilisna dekompozicia*
+			* *sposobuje, ze jednotlive male prirastky moze byt casom velmi  tazke prepojit*
+		* *Prilisna velkost prirastkov*
+			* *dany prirastok je zlozite implementovat (jeho vyvoj trva dlhsie)*
 	
+				
+###### xx. Co znamen slaba opakovatelnost v tvorbe softveru
+		* So slabou opakovatelnostou sa stretavame v pripade ak sa snazime pri vytvarani projektu __uplatnit osvedcene postupy__, alebo __znovupouzit existujuci softver__.
+		* V oboch pripadoch je problem niektoru z danych veci pouzit, pretoze projekt ma ine specifikacie a su teeda nevyhnutne urcite modifikacie.
+		
+###### xx. 
+
+		22.
+		23.
+		
 
 
 	
