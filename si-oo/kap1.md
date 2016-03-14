@@ -161,6 +161,7 @@
 	* Poziadavky su zalozene na potrebach ludi, ktorym sa ma softver predavat
 
 ###### 26. 	Uvedte priklady foftverovych produktov generickeho typu
+
 	
 ###### xx. Co znamen slaba opakovatelnost v tvorbe softveru
 * So slabou opakovatelnostou sa stretavame v pripade ak sa snazime pri vytvarani projektu __uplatnit osvedcene postupy__, alebo __znovupouzit existujuci softver__.
