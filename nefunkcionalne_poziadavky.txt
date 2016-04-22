@@ -1,0 +1,34 @@
+R1 Spo¾ahlivos
+	R1.01 Doba odozvy
+30s. (??)
+	
+	R1.02 Dostupnos
+Vïaka zálonım serverom bude dosiahnutá dostupnos 24 hodín denne, 7 dní v tıdni
+
+
+R2 Technológie
+	R2.01 Systém Windows Server 2012
+Poskytuje globálné cloudové sluby s vylepšeniami v oblasti virtualizácie, správy, úloiska, siete, infraštruktúry virtuálnych klientskıch poèítaèov, prístupu a ochrany informácií, webové a aplikaèné platformy...
+	
+	R2.02 Databáza
+Microsoft SQL 2012 je relaènı databázovı systém, ktorı ponúka Database Mirroring, Log Shipping, Failover Clustering, Replikácie a AlwaysOn.
+Mirrorovanı server je server obsahujúci rovnaké údaje ako hlavnı server. Tieto údaje sú real-time updatované. Zabezpeèuje nepretritú prevádzku v prípade, e s rôznych príèin nie je moná práca s hlavnım serverom. Vlastnosti poèítaèa, na ktorom tento server beí, by sa mali èo najviac pribliova k vlastnostiam riadneho servera.
+Podstata Log Shipping-u spoèíva v pravidelnej (pomerne frekventovanej) zálohe tranzakèného logu, ktorá je následne skopírovaná na partnerské servery, kde je táto záloha obnovená. Neponúka však automatickı failover.
+Failover Clustering slúi ako ochrana pre celú inštanciu a spolieha sa na slubu Windows Failover Cluster. V princípe ide o zdielanie databázy, ktoré je tie jednım zo zranite¾nıch miest. Kadı cluster je zloenı z nieko¾kıch nodov, prièom vdy je len jeden aktívny a ïalšie sú pasívne.
+Replikácie sú postavené nad modelom publisher/subscriber. U publisher serveru si volíme, aké dáta majú by v rámci replikácie dostupné a u subscriber naopak vyberáme z ktorıch publisher serverov budú dáta replikované.
+AlwaysOn je moné nasadi v nieko¾kıch kombináciách, rovnako ako pri Mirroringu máme k dispozícii synchrónny a asynchrónny reim a podobne ako v Log Shippingu je moné databázy replikova na viacero serverov. 
+	
+	R2.03 Server
+Webovı server (IIS) v systéme Windows Server 2012 poskytuje bezpeènú a ¾ahko spravovate¾nú platformu pre spo¾ahlivé hostovanie. IIS 8 umoòuje zdielanie informácií s pouívate¾mi na internete, v intranete alebo extranete. Jednou z vıhod IIS 8 je zrıchlenie webu prostredníctvom integrovaného dynamického ukladania do vyrovnávacej pamäte a vylepšenie kompresie.
+
+ADDED:(optionaly) 
+R3 Bezpeènos
+- v sieovej komunikácii je dodraná potrebná miera šifrovania
+- dodranie bezpeènosti pri konfigurovaní bezpeènostnıch nastavení, vytváraní novıch kont, pride¾ovaní práv a pod. (Zveri to všetko systémovému administrátorovi ??)
+- stanovi hierarchiu pouívate¾ov
+- dba na pravidelné zmeny hesla a zabráni úniku informácií nepovolanım osobám
+
+
+Pridaj prosim ta do zdrojov tieto odkazy:
+https://technet.microsoft.com/cs-cz/library/hh831725.aspx
+http://www.zive.cz/clanky/sql-server-a-vysoka-dostupnost--i/sc-3-a-165359/default.aspx
